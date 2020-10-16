@@ -1,0 +1,11 @@
+<% if user_signed_in? %>
+<div class="p-5">
+  <%= link_to 'Crear noticias', new_post_path, class: "btn btn-primary btn-block"  %>
+</div>
+<% end %>
+<div class="container  post-container">
+  <% @posts.each do |post| %>
+  <%= render 'shared/cards', post: post %>
+  <% end %>
+</div>
+
