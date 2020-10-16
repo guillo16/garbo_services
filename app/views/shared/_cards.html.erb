@@ -1,0 +1,9 @@
+<div class="card">
+  <%= link_to post_path(post) do %>
+  <img src="<%= post.photo %>" alt="">
+  <div class="card-body">
+    <h5 class="card-title text-body"><%= post.title %></h5>
+    <p class="card-text text-body"><%= post.subtitle %></p>
+  </div>
+  <% end %>
+</div>

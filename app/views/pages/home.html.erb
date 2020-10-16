@@ -1,2 +1,22 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="main-banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
+  <div class="container text-center">
+    <h1><strong>GARBO</strong></h1>
+    <p>servicios integrales</p>
+    <div class="d-flex justify-content-center">
+      <a class="btn btn-success mr-3" href="#">Quienes Somos</a>
+      <a class="btn btn-outline-success" href="#">Contacto</a>
+    </div>
+  </div>
+</div>
+<section id="services">
+  <%= render 'services' %>
+</section>
+<section id="sponsors">
+  <%= render 'sponsors' %>
+</section>
+<section id="posts">
+  <%= render 'posts' %>
+</section>
+<section id="company">
+  <%= render 'company' %>
+</section>
