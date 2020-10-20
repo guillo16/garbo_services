@@ -3,5 +3,6 @@ class PagesController < ApplicationController
 
   def home
     @posts = Post.order(created_at: :asc).limit(3)
+    @contact = Contact.new
   end
 end

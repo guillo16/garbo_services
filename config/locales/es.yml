@@ -1,0 +1,15 @@
+es:
+  mail_form:
+    model:
+      contact:
+        name: "dkjfdkf"
+    attributes:
+      contact:
+        name: "Nombre"
+        last_name: "Apellido"
+        phone: "Teléfono"
+        message: "Mensaje"
+  helpers:
+    submit:
+      create: "algo"
+      update: "pras"

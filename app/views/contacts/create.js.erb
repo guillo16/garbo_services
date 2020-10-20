@@ -1,0 +1,10 @@
+function refreshForm(innerHTML) {
+  const formUpdate = document.getElementById('contact')
+  formUpdate.innerHTML = innerHTML;
+}
+
+<% if @contact.errors.any? %>
+refreshForm('<%= j render "contacts/new"%>')
+<% else %>
+location.replace('<%= root_path %>');
+<% end %>

@@ -1,0 +1,18 @@
+es:
+  mail_form:
+    model:
+      contact:
+        name: "dkjfdkf"
+  errors:
+      messages:
+        taken: "ya existe"
+        blank: "no puede estar vacio."
+        too_short: "es demasiado corto."
+        wrong_length: "no cumple con la longitud requerida."
+        greater_than: "tiene que ser mayor que 0"
+        required: 'tiene que estar presente'
+        taken: "no puede ser repetido."
+        invalid: "no cuenta con un formato válido."
+        inclusion: "no puede estar vacio"
+        not_a_number: "solo acepta numeros"
+        too_long: "es demasiado largo."
