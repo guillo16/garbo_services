@@ -2,7 +2,7 @@ es:
   mail_form:
     model:
       contact:
-        name: "dkjfdkf"
+        name: "Contacto"
     attributes:
       contact:
         name: "Nombre"
@@ -11,5 +11,17 @@ es:
         message: "Mensaje"
   helpers:
     submit:
-      create: "algo"
-      update: "pras"
+      create: "Crear noticia"
+      update: "Actualizar noticia"
+  devise:
+    sessions:
+      user:
+        signed_in: "Bienvenido a GARBO"
+        signed_out: "Sesión Finalizada"
+  activerecord:
+    attributes:
+      post:
+        title: "Titulo"
+        subtitle: "Subtitulo"
+        content: "Contenido"
+        photo: "Foto"

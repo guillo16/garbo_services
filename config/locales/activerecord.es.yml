@@ -2,7 +2,7 @@ es:
   mail_form:
     model:
       contact:
-        name: "dkjfdkf"
+        name: "Contacto"
   errors:
       messages:
         taken: "ya existe"

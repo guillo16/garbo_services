@@ -1,6 +1,6 @@
 <div class="card">
   <%= link_to post_path(post) do %>
-  <img src="<%= post.photo %>" alt="">
+  <%= cl_image_tag post.photo.key %>
   <div class="card-body">
     <h5 class="card-title text-body font-weight-bold"><%= post.title %></h5>
     <p class="card-text text-body"><%= post.subtitle %></p>
