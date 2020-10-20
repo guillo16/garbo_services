@@ -2,8 +2,10 @@
   <%= simple_form_for @post do |f| %>
   <%= f.input :title %>
   <%= f.input :subtitle %>
-  <%= f.input :content %>
-  <%= f.input :photo %>
-  <%= f.submit %>
+  <%= f.input :content, input_html: { rows: 7 } %>
+  <%= f.input :photo, as: :file %>
+  <div class="pt-4">
+    <%= f.submit class: "btn btn-primary btn-block" %>
+  </div>
   <% end %>
 </div>

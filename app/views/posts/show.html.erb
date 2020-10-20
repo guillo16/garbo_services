@@ -2,7 +2,7 @@
   <h2 class="font-weight-bold"><%= @post.title %></h2>
   <h5><%= @post.subtitle %></h5>
   <hr>
-  <img src="<%= @post.photo %>" alt="" style="width: 100%; height: 60vh; object-fit: cover;">
+  <%= cl_image_tag @post.photo.key , style: "width: 100%; height: 60vh; object-fit: cover;" %>
   <hr>
   <p><%= @post.content %></p>
   <div class="text-center">
