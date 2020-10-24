@@ -9,4 +9,7 @@
   <%= render 'shared/cards', post: post %>
   <% end %>
 </div>
+<div class="pt-5 d-flex justify-content-center align-items-center">
+  <%= will_paginate @posts, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
+</div>
 
