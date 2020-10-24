@@ -22,6 +22,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'redis', '~> 4.0'
 gem 'cloudinary', '~> 1.16.0'
 gem 'will_paginate', '~> 3.1.0'
+gem 'will_paginate-bootstrap4'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
