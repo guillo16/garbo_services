@@ -1,7 +1,12 @@
 .main-banner {
   background-size: cover;
-  background-position: center;
-  padding: 270px 0;
+  background-position: bottom;
+  padding: 100px 0;
+
+  img {
+    height: 470px;
+    object-fit: cover;
+  }
 
   h1 {
     margin: 0;
@@ -17,6 +22,16 @@
     opacity: .7;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   }
+}
+
+.banner-btn {
+  margin-top: -110px;
+  padding-bottom: 110px;
+}
+
+#btn-banner {
+ border: 2px solid white !important;
+ color: white;
 }
 
 .banner-login {
