@@ -7,7 +7,6 @@
     font-size: 15px;
   }
 
-
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -18,4 +17,13 @@
   width: 150px;
   height: 54px;
   object-fit: cover;
+}
+
+
+@media (max-width: 340.98px) {
+  .navbar-lewagon .navbar-brand img {
+    width: 130px;
+    height: 40px;
+    object-fit: cover;
+  }
 }
