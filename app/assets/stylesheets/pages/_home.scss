@@ -41,8 +41,6 @@
   grid-gap: 24px;
 }
 
-
-
 #carousel {
   .carousel {
     img {
@@ -52,6 +50,16 @@
     }
   }
 }
+
+
+@media (max-width: 991.98px) {
+  .post-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+  }
+}
+
 
 @media(max-width: 575px) {
 
