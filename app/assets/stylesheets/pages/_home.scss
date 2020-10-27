@@ -41,6 +41,8 @@
   grid-gap: 24px;
 }
 
+
+
 #carousel {
   .carousel {
     img {
@@ -50,8 +52,6 @@
     }
   }
 }
-
-
 
 @media(max-width: 575px) {
 
@@ -77,6 +77,12 @@
       font-size: 20px;
     }
 
+    p {
+      font-size: 14px;
+    }
+  }
+
+  #company {
     p {
       font-size: 14px;
     }

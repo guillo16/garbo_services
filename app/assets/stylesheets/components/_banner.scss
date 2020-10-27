@@ -1,7 +1,8 @@
 .main-banner {
   background-size: cover;
   background-position: bottom;
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 200px;
 
   img {
     height: 470px;
@@ -38,4 +39,99 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
+}
+
+
+@media (max-width: 1199.98px) {
+  .main-banner {
+    padding-top: 200px;
+    padding-bottom: 300px;
+  }
+
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+  .main-banner {
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    img {
+      height: 360px;
+      object-fit: cover;
+    }
+
+  }
+
+  .banner-btn {
+    margin-top: -70px;
+    padding-bottom: 70px;
+  }
+
+
+}
+
+
+@media (max-width: 567.98px) {
+  .main-banner {
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+    }
+
+  }
+
+  .banner-btn {
+    margin-top: -40px;
+    padding-bottom: 40px;
+  }
+  //banner buttons
+
+  #btn-banner-1 {
+    font-size: 14px;
+  }
+
+  #btn-banner {
+   border: 2px solid white !important;
+   color: white;
+   font-size: 14px;
+ }
+}
+
+@media (max-width: 340.98px) {
+  .main-banner {
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+  }
+
+  //banner buttons
+
+  #btn-banner-1 {
+    font-size: 13px;
+  }
+
+  #btn-banner {
+   border: 2px solid white !important;
+   color: white;
+   font-size: 13px;
+ }
 }
