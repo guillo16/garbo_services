@@ -24,4 +24,37 @@
     <%= f.submit 'Enviar mensaje', class: 'btn btn-success btn-block btn-main m-0 text-white mt-3' %>
     <% end %>
   </div>
+  <div class="text-center">
+    <div class="pb-3">
+      <i class="far fa-envelope h3"></i>
+      <p class="mb-1 pb-1">garbosvsintegrales@gmail.com</p>
+    </div>
+    <div>
+      <i class="fab fa-whatsapp h2"></i>
+      <p class="mb-1" type="button" data-toggle="modal" data-target="#phoneModal"> 381-5342477 || 381-5056132</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="phoneModal" tabindex="-1" role="dialog" aria-labelledby="phoneModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title h4 font-weight-bold" id="exampleModalLabel">Teléfonos</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="mb-0 font-weight-bold">Whatsapp:</p>
+        <a href="https://api.whatsapp.com/send?phone=5493815342477" target="_blank" rel="noopener noreferrer">381-5342477</a><br>
+        <a href="https://api.whatsapp.com/send?phone=5493815056132" target="_blank" rel="noopener noreferrer">381-5056132</a>
+        <p class="mb-0 mt-3 font-weight-bold">Llamar:</p>
+        <a href="tel:3815056132" target="_blank">381-5056132</a><br>
+        <a href="tel:5493815342477" target="_blank">381-5342477</a>
+      </div>
+    </div>
+  </div>
 </div>
