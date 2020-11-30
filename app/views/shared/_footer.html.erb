@@ -1,9 +1,9 @@
 <div class="bg-info " id="footer">
   <div class="d-flex align-items-center justify-content-center py-4">
-    <%= link_to "https://www.facebook.com/GARBO-Espacios-Verdes-198969213999917", target: "_blank" do  %>
+    <%= link_to "https://www.facebook.com/GARBO-Espacios-Verdes-198969213999917", target: "_blank", rel: "nofollow" do  %>
       <i class="fab fa-facebook-square h1 mr-3"></i>
     <% end %>
-    <%= link_to "https://www.instagram.com/garbo.svsintegrales/", target: "_blank" do %>
+    <%= link_to "https://www.instagram.com/garbo.svsintegrales/", target: "_blank", rel: "nofollow" do %>
       <i class="fab fa-instagram-square h1 mr-3"></i>
     <% end %>
     <a href="https://api.whatsapp.com/send?phone=5493815342477" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp-square h1"></i></a>
@@ -16,7 +16,7 @@
     <% else %>
     <div class="text-center text-md-left d-md-flex justify-content-between">
       <p><i class="far fa-copyright h6"></i> 2020 - <%= link_to 'GARBO', new_user_session_path  %> Todos los derechos reservados</p>
-      <p class="pt-2 pt-md-0">Made by <strong> <%= link_to 'GV', 'http://www.guillermo-varela.com', target: "_blank"  %></strong></p>
+      <p class="pt-2 pt-md-0">Made by <strong> <%= link_to 'GV', 'http://www.guillermo-varela.com', target: "_blank", rel: "nofollow"  %></strong></p>
     </div>
     <% end %>
   </div>
