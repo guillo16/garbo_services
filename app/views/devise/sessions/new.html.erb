@@ -1,6 +1,6 @@
 <div class="banner-login d-flex justify-content-center align-items-center" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1559721849-947ab8ad1ced?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);">
   <div class="p-5" style="background-color: rgba(250, 250, 250, 0.9)">
-    <h2 class="h3 font-weight-bold pb-5">Iniciar sesión (Solo para socios)</h2>
+    <h2 class="h3 font-weight-bold pb-5">Iniciar sesión (solo para socios)</h2>
     <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
     <div class="form-inputs">
       <%= f.input :email,
@@ -17,7 +17,7 @@
     </div>
     <% end %>
     <div class="py-3">
-      <%= link_to 'volver', root_path, class: "btn btn-danger btn-block"%>
+      <%= link_to 'Volver', root_path, class: "btn btn-danger btn-block"%>
     </div>
   </div>
 </div>

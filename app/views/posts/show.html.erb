@@ -1,5 +1,5 @@
 <% if user_signed_in? %>
-<div class="p-5">
+<div class="p-5 mt-6">
   <%= link_to 'Editar Noticia', edit_post_path(@post), class: "btn btn-dark btn-block mb-3"  %>
   <%= link_to 'Destruir Noticia', @post, method: :delete, data: { confirm: 'Estas seguro de eliminar la noticia' } , class: 'btn btn-danger btn-block' %>
 </div>
