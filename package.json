@@ -1,6 +1,9 @@
 {
   "name": "garbo_services",
   "private": true,
+  "engines": {
+    "yarn": "1.x"
+  },
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
@@ -16,4 +19,5 @@
   "devDependencies": {
     "webpack-dev-server": "^3.11.0"
   }
+
 }
