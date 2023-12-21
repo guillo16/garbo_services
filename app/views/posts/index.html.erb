@@ -3,7 +3,7 @@
   <%= link_to 'Crear novedades', new_post_path, class: "btn btn-primary btn-block"  %>
 </div>
 <% end %>
-<h2 class="py-5 text-center mt-6" id="page-title">Novedades</h2>
+<h2 class="py-5 text-center mt-6" id="page-title">Nuestras Obras</h2>
 <div class="container post-container">
   <% @posts.each do |post| %>
   <%= render 'shared/cards', post: post %>
